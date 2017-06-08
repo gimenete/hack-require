@@ -1,0 +1,4 @@
+module.exports = function (sql, params) {
+  console.log('executing...', sql, params)
+  return [{ foo: 'bar' }]
+}
